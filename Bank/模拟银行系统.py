@@ -6,7 +6,11 @@ from BankView import view
 def main():
     print("作为主程序")
     v =view()
-    v.printAdminView()
+    if v.printAdminView():
+        v.printSysFunctionView()
+
+
+
 
 
 

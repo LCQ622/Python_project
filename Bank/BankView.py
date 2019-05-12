@@ -1,9 +1,11 @@
 '''
 视图类
 '''
-
+import  time
 
 class view (object):
+    admin="1"
+    adminPassword="1"
 
     def printAdminView(self):
         '''
@@ -16,6 +18,20 @@ class view (object):
         print("*                                     *")
         print("*                                     *")
         print("***************************************")
+        admin=input("请输入管理员账号:\n>")
+        if self.admin !=admin:
+            print("管理员账号有误！！！")
+            return False
+        adminPassword=input("请输入管理员密码:\n>")
+        if self.adminPassword !=adminPassword:
+            print("管理员密码有误！！！")
+            return False
+        #能执行到这说明管理员账号密码均没有问题
+        print("管理员登录成功,请稍后...")
+        time.sleep(1)
+        return True
+
+
 
     def printSysFunctionView(self):
         '''
