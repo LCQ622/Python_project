@@ -46,7 +46,7 @@
     <SUITE FILE_PATH="coverage/Python_project$09.coverage" NAME="09 Coverage Results" MODIFIED="1538841034825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_project$33.coverage" NAME="33 Coverage Results" MODIFIED="1551358068029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_project$36.coverage" NAME="36 Coverage Results" MODIFIED="1551578946234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_project$.coverage" NAME="嵌套函数 Coverage Results" MODIFIED="1550672118773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_project$.coverage" NAME="模拟银行系统 Coverage Results" MODIFIED="1557629119506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bank" />
     <SUITE FILE_PATH="coverage/Python_project$27.coverage" NAME="27 Coverage Results" MODIFIED="1550385909235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_project$71.coverage" NAME="71 Coverage Results" MODIFIED="1549977361929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_project$45.coverage" NAME="45 Coverage Results" MODIFIED="1552299699705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -82,7 +82,7 @@
           <entry key="ipynb" value="2" />
           <entry key="js" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="104" />
+          <entry key="py" value="107" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="5" />
         </counts>
@@ -94,28 +94,54 @@
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="104" />
+          <entry key="Python" value="107" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="5" />
           <entry key="html" value="1" />
-          <entry key="py" value="25797" />
+          <entry key="py" value="26332" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="25797" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="26332" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bank/模拟银行系统.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <marker date="1557628906442" expanded="true" signature="50:106" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank/BankView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <marker date="1557628906435" expanded="true" signature="66:75" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/56.py" />
-        <option value="$PROJECT_DIR$/62.py" />
         <option value="$PROJECT_DIR$/19.py" />
         <option value="$PROJECT_DIR$/20.py" />
         <option value="$PROJECT_DIR$/21.py" />
@@ -192,6 +216,8 @@
         <option value="$PROJECT_DIR$/65.js" />
         <option value="$PROJECT_DIR$/65.py" />
         <option value="$PROJECT_DIR$/66.py" />
+        <option value="$PROJECT_DIR$/Bank/test.py" />
+        <option value="$PROJECT_DIR$/Bank/View.py" />
         <option value="$PROJECT_DIR$/Bank/模拟银行系统.py" />
       </list>
     </option>
@@ -206,6 +232,23 @@
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnresolvedReferencesInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,8 +308,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.66">
-    <configuration name="50" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.模拟银行系统">
+    <configuration name="模拟银行系统" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,12 +317,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bank" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/50.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bank/模拟银行系统.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,19 +420,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.50" />
       <item itemvalue="Python.63" />
       <item itemvalue="Python.64" />
       <item itemvalue="Python.65" />
       <item itemvalue="Python.66" />
+      <item itemvalue="Python.模拟银行系统" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.模拟银行系统" />
         <item itemvalue="Python.66" />
         <item itemvalue="Python.65" />
         <item itemvalue="Python.64" />
         <item itemvalue="Python.63" />
-        <item itemvalue="Python.50" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +457,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34816754" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34702548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,8 +544,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/a45.html" />
-    <entry file="file://$PROJECT_DIR$/html/a46.html" />
     <entry file="file://$PROJECT_DIR$/html/a47.html" />
     <entry file="file://$PROJECT_DIR$/html/a48.html" />
     <entry file="file://$PROJECT_DIR$/html/a49.html" />
@@ -596,12 +637,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bank/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank/BankView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <marker date="1557628906435" expanded="true" signature="66:75" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bank/模拟银行系统.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="92">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1557626173299" expanded="true" signature="13:55" ph="..." />
+            <marker date="1557628906442" expanded="true" signature="50:106" ph="..." />
           </folding>
         </state>
       </provider>
