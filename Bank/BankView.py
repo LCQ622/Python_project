@@ -8,7 +8,7 @@ class view (object):
     def printAdminView(self):
         print("***************************************")
         print("*                                     *")
-        print("*          欢迎使用傻强银行            *")
+        print("*          欢迎使用傻强的银行            *")
         print("*                                     *")
         print("*                                     *")
         print("***************************************")
