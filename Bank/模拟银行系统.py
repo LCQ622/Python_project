@@ -19,9 +19,9 @@ def main():
         if option=="2":
             print("查询")
         if option=="3":
-            print("存款")
-        if option=="4":
             print("取款")
+        if option=="4":
+            print("存款")
         if option=="5":
             print("转账")
         if option=="6":
